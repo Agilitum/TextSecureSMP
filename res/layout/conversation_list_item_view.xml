@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.SMP.ConversationListItem
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/conversation_list_item_background"
+        android:layout_height="70dp">
+
+    <org.thoughtcrime.SMP.components.AvatarImageView
+        android:id="@+id/contact_photo_image"
+        android:foreground="@drawable/contact_photo_background"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:cropToPadding="true"
+        tools:src="@drawable/ic_contact_picture"
+        android:contentDescription="@string/conversation_list_item_view__contact_photo_image"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginBottom="4dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/contact_photo_image"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="bottom">
+
+            <org.thoughtcrime.SMP.components.FromTextView
+                      android:id="@+id/from"
+                      android:layout_weight="1"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="?attr/conversation_list_item_contact_color"
+                      android:singleLine="true"
+                      tools:text="Jules Bonnot"
+                      android:ellipsize="end"
+                      android:drawablePadding="5dp"/>
+
+            <ImageView android:id="@+id/error"
+                       android:layout_marginLeft="3dip"
+                       android:layout_height="match_parent"
+                       android:layout_width="20sp"
+                       android:visibility="gone"
+                       android:src="@drawable/ic_action_warning_red"
+                       android:contentDescription="@string/conversation_list_item_view__error_alert" />
+
+            <TextView android:id="@+id/date"
+                      android:layout_marginLeft="3dip"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:textColor="?attr/conversation_list_item_date_color"
+                      android:fontFamily="sans-serif-light"
+                      tools:text="30 mins"
+                      android:singleLine="true"
+                      android:layout_gravity="top" />
+            </LinearLayout>
+
+        <org.thoughtcrime.SMP.components.emoji.EmojiTextView
+                  android:id="@+id/subject"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textColor="?attr/conversation_list_item_subject_color"
+                  android:fontFamily="sans-serif-light"
+                  android:singleLine="true"
+                  tools:text="Wheels arrive at 3pm flat."
+                  android:ellipsize="end" />
+
+    </LinearLayout>
+</org.thoughtcrime.SMP.ConversationListItem>
