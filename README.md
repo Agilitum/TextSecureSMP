@@ -1,65 +1,16 @@
-# TextSecure [![Build Status](https://travis-ci.org/WhisperSystems/TextSecure.svg?branch=master)](https://travis-ci.org/WhisperSystems/TextSecure)
+# TextSecure-SMP
 
 TextSecure is a messaging app for simple private communication with friends.
 
 TextSecure uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone.
 
-Currently available on the Play store.
+This version - TextSecure-SMP - has been build to incorporate the Socialist Millionaires' Protocol from the OTRv3 protocol into the application to allow for a better authentication mechanism.
 
-*[![Play Store Badge](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms.SMP)*
+THIS IS NOT PRODUCTION CODE YET - THUS PROCEED WITH CAUTION!!!
 
-## Contributing Bug reports
-We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!
 
-https://github.com/WhisperSystems/TextSecure/issues
-
-## Joining the Beta
-Want to live life on the bleeding edge and help out with testing?
-
-You can subscribe to TextSecure Beta releases in two steps:
- 
-1. Join the [TextSecure Beta Google+ Community](https://plus.google.com/communities/114424213916773497091).
-1. After you've joined the community, [subscribe to the beta](https://play.google.com/apps/testing/org.thoughtcrime.securesms.SMP).
-
-If you're interested in a life of peace and tranquility, stick with the standard releases.
-
-## Contributing Translations
-Interested in helping to translate TextSecure? Contribute here:
-
-https://www.transifex.com/projects/p/textsecure-official/
-
-## Contributing Code
-Instructions on how to setup your development environment and build TextSecure can be found in  [BUILDING.md](https://github.com/WhisperSystems/TextSecure/blob/master/BUILDING.md).
-
-If you're new to the TextSecure codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar.
-
-For larger changes and feature ideas, we ask that you propose it on the mailing list for a high-level discussion before implementation.
-
-This repository is set up with [BitHub](https://whispersystems.org/blog/bithub/), so you can make money for committing to TextSecure. The current BitHub price for an accepted pull request is:
-
-[![Current BitHub Price](https://bithub.herokuapp.com/v1/status/payment/commit/)](https://whispersystems.org/blog/bithub/)
-
-## Contributing Ideas
-Have something you want to say about Open Whisper Systems projects or want to be part of the conversation? Get involved in the mailing list!
-
-whispersystems@lists.riseup.net
-
-https://lists.riseup.net/www/info/whispersystems
-
-## Contributing Funds
-[![Donate](https://www.coinbase.com/assets/buttons/donation_large-36ee936185fdf9a88e3a28cc685fb9b7.png)](https://coinbase.com/checkouts/d29fd4c37ca442393e32fdcb95304701)
-
-You can add funds to BitHub to directly help further development efforts.
-
-Help
-====
-## Support
-For troubleshooting and questions, please visit our support center!
-
-http://support.whispersystems.org/
-
-## Documentation
-Looking for documentation? Check out the wiki!
+## Original Documentation for TextSecure
+Looking for the original documentation? Check out their wiki!
 
 https://github.com/WhisperSystems/TextSecure/wiki
 
