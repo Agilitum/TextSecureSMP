@@ -1,10 +1,10 @@
-# TextSecure-SMP
+# TextSecureSMP
 
 TextSecure is a messaging app for simple private communication with friends.
 
 TextSecure uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone.
 
-This version - TextSecure-SMP - has been build to incorporate the Socialist Millionaires' Protocol from the OTRv3 protocol into the application to allow for a better authentication mechanism.
+This version - TextSecureSMP - has been build to incorporate the Socialist Millionaires' Protocol from the OTRv3 protocol into the application to allow for a better authentication mechanism.
 
 THIS IS NOT PRODUCTION CODE YET - THUS PROCEED WITH CAUTION!!!
 
